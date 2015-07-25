@@ -50,7 +50,7 @@ h1 {
   font-family: "Raleway", sans-serif;
   font-size: 3em;
   font-weight: bold;
-  color: #993955; }
+  color: #E9ECF5; }
 
 p {
   font-family: "Raleway", sans-serif; }
@@ -63,9 +63,10 @@ html, body {
 .header {
   box-sizing: border-box;
   height: 9%;
-  padding-left: 8px;
-  padding: 5px;
-  border-bottom: 3px solid #993955; }
+  padding: 5px 5px 5px 20px;
+  border-bottom: 32px solid transparent;
+  border-image: url("../images/wave.svg") 32 round round;
+  background-color: #993955; }
 
 .input {
   display: inline-block;
