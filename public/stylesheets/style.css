@@ -49,28 +49,63 @@ table {
 h1 {
   font-family: "Raleway", sans-serif;
   font-size: 3em;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #993955; }
+
+p {
+  font-family: "Raleway", sans-serif; }
 
 html, body {
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  background-color: #E9ECF5; }
 
 .header {
   box-sizing: border-box;
-  height: 7%;
-  margin-left: 10px; }
+  height: 9%;
+  padding-left: 8px;
+  padding: 5px;
+  border-bottom: 3px solid #993955; }
 
 .input {
   display: inline-block;
   box-sizing: border-box;
+  vertical-align: top;
+  padding: 20px;
   height: 90%;
-  width: 25%;
-  border: 3px solid black; }
+  width: 30%;
+  border: 3px solid #993955;
+  border-top: none;
+  border-left: none;
+  background-color: #E9ECF5; }
+  .input p {
+    height: 5%; }
 
 #myCanvas {
   display: inline-block;
   box-sizing: border-box;
   height: 90%;
-  width: 75%;
+  width: 70%;
   overflow: hidden;
-  background-color: blue; }
+  background-color: #E9ECF5; }
+
+form {
+  height: 95%; }
+
+textarea {
+  margin: 15px auto;
+  width: 98%;
+  height: 80%; }
+
+#createCloud {
+  height: 40px;
+  background-color: #fff;
+  color: #993955;
+  border: 2px solid #993955;
+  border-radius: 3px;
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: .8em; }
+  #createCloud:hover {
+    color: #fff;
+    background-color: #993955; }

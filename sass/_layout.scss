@@ -1,27 +1,38 @@
 html, body {
   height: 100%;
   width: 100%;
+  background-color: $sky;
 }
 
 .header {
   box-sizing: border-box;
-  height: 7%;
-  margin-left: 10px;
+  height: 9%;
+  padding-left: 8px;
+  padding: 5px;
+  border-bottom: 3px solid $red;
 }
 
 .input {
   display: inline-block;
   box-sizing: border-box;
+  vertical-align: top;
+  padding: 20px;
   height: 90%;
-  width: 25%;
-  border: 3px solid black;
+  width: 30%;
+  border: 3px solid $red;
+  border-top: none;
+  border-left: none;
+  background-color: $sky;
+  & p {
+    height: 5%;
+  }
 }
 
 #myCanvas {
   display: inline-block;
   box-sizing: border-box;
   height: 90%;
-  width: 75%;
+  width: 70%;
   overflow: hidden;
-  background-color: blue;
+  background-color: $sky;
 }

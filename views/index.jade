@@ -4,5 +4,9 @@ block content
   div.header
     h1= title
   div.input
+    p Type below or paste text for word cloud:
+    form(action='/' method='post')
+      textarea(id='text-input' name='text_input')
+      input#createCloud(type='submit' value='Create Cloud')
   
   canvas#myCanvas
