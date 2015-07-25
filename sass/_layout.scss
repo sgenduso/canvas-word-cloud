@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  box-sizing: border-box;
+  height: 7%;
+  margin-left: 10px;
+}
+
+.input {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 90%;
+  width: 25%;
+  border: 3px solid black;
+}
+
+#myCanvas {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 90%;
+  width: 75%;
+  overflow: hidden;
+  background-color: blue;
+}

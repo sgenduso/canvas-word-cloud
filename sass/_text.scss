@@ -1,0 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,200);
+
+$font1: 'Raleway';
+
+h1 {
+  font-family: $font1, sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
