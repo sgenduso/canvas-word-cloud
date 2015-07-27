@@ -6,19 +6,21 @@ textarea {
   margin: 15px auto;
   width: 98%;
   height: 80%;
+  border-color: $red;
+  border-radius: 3px;
 }
 
 #createCloud {
   height: 40px;
-  background-color: $white;
-  color: $red;
+  background-color: $red;
+  color: $white;
   border: 2px solid $red;
   border-radius: 3px;
   font-family: $font1;
   font-weight: bold;
   font-size: .8em;
   &:hover {
-    color: $white;
-    background-color: $red;
+    color: $red;
+    background-color: $sky;
   }
 }
